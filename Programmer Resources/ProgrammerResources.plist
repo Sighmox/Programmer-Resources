@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>We Heart Swift</string>
+		<key>description</key>
+		<string>Swift tutorials, resources and exercises</string>
+		<key>url</key>
+		<string>https://www.weheartswift.com</string>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Q&amp;A site with thousands of questions on iOS and other types of programming</string>
+		<key>url</key>
+		<string>https://stackoverflow.com</string>
+		<key>name</key>
+		<string>Stack Overflow</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Human Interface Guidelines</string>
+		<key>description</key>
+		<string>Apple&apos;s guidelines for designing user interfaces to suit iOS devices and decrease the probability of an app being rejected from the app store</string>
+		<key>url</key>
+		<string>https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/</string>
+	</dict>
+	<dict>
+		<key>url</key>
+		<string>https://unsplash.com/</string>
+		<key>description</key>
+		<string>Thousands of completely free high-resolution photographs for use in apps</string>
+		<key>name</key>
+		<string>Unsplash</string>
+	</dict>
+</array>
+</plist>
