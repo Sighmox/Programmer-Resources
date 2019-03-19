@@ -52,6 +52,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="descr" destination="egb-N9-1XH" id="757-xy-2Cv"/>
+                        <outlet property="name" destination="AEN-bE-ika" id="bab-1F-A1c"/>
+                        <outlet property="url" destination="RQE-N7-ccQ" id="CG2-wO-CFr"/>
                         <segue destination="e4Z-QJ-nH0" kind="show" id="oZo-cb-UaD"/>
                     </connections>
                 </viewController>
@@ -107,7 +110,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="S0d-f4-tsH"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="showDetail" id="S0d-f4-tsH"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

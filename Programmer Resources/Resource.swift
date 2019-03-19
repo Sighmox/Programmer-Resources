@@ -24,4 +24,5 @@ extension Resource {
         let urlString = dictionary["url"]! as String
         url = URL(string: urlString)!
     }
+    
 }
