@@ -27,13 +27,13 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egb-N9-1XH">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egb-N9-1XH">
                                         <rect key="frame" x="166.5" y="201" width="42" height="201"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RQE-N7-ccQ">
+                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RQE-N7-ccQ">
                                         <rect key="frame" x="166.5" y="402" width="42" height="201"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -55,12 +55,12 @@
                         <outlet property="descr" destination="egb-N9-1XH" id="757-xy-2Cv"/>
                         <outlet property="name" destination="AEN-bE-ika" id="bab-1F-A1c"/>
                         <outlet property="url" destination="RQE-N7-ccQ" id="CG2-wO-CFr"/>
-                        <segue destination="e4Z-QJ-nH0" kind="show" id="oZo-cb-UaD"/>
+                        <segue destination="e4Z-QJ-nH0" kind="show" identifier="showWebView" id="oZo-cb-UaD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1072.8" y="133.5832083958021"/>
+            <point key="canvasLocation" x="1122" y="134"/>
         </scene>
         <!--Web View Controller-->
         <scene sceneID="QAy-Mq-AHu">
@@ -88,10 +88,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="j2V-7b-dsm"/>
                     </view>
+                    <connections>
+                        <outlet property="webView" destination="Fx3-yl-5Mo" id="Ps5-1y-6VP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cdv-mV-zM2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1756" y="133.5832083958021"/>
+            <point key="canvasLocation" x="1878" y="134"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="oIf-sh-1ki">
