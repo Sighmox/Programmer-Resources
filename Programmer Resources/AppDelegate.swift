@@ -17,6 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
+        // The nav controller controls what view controller is being viewed like the deck
+        // in a deck of cards and eah view is a card
         let dataController = ResourceDataControlller()
         let navController = window!.rootViewController as! UINavigationController
         let tableController = navController.topViewController as! TableViewController

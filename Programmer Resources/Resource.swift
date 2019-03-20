@@ -8,7 +8,7 @@
 
 import Foundation
 
-
+// The resource object that accesses the plist for the information
 struct Resource {
     let name: String
     let description: String
@@ -16,7 +16,7 @@ struct Resource {
 }
 
 
-
+// The extension allows for specifying the object while keeping it separate
 extension Resource {
     init (dictionary: [String: String]) {
         name = dictionary["name"]! as String

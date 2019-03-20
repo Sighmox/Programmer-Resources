@@ -12,6 +12,7 @@ class ResourceDataControlller {
     
     let resources: [Resource]
     
+    // This controller uses the Resource object to access the plist and loop through it
     init() {
         let plistURL = Bundle.main.path(forResource: "ProgrammerResources", ofType: ".plist")
         let resourcesPlist = NSArray(contentsOfFile: plistURL!)
