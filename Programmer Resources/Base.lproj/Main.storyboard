@@ -96,7 +96,7 @@
             </objects>
             <point key="canvasLocation" x="1878" y="134"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Programmer Resources-->
         <scene sceneID="oIf-sh-1ki">
             <objects>
                 <tableViewController id="KxC-P0-h6V" customClass="TableViewController" customModule="Programmer_Resources" customModuleProvider="target" sceneMemberID="viewController">
@@ -122,7 +122,9 @@
                             <outlet property="delegate" destination="KxC-P0-h6V" id="W8k-Gr-c64"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="R1G-qf-hq9"/>
+                    <navigationItem key="navigationItem" title="Programmer Resources" id="R1G-qf-hq9">
+                        <barButtonItem key="backBarButtonItem" title="Resources" id="5nJ-On-aH2"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VAm-Qe-gh3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

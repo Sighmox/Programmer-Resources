@@ -10,7 +10,13 @@ import UIKit
 
 class DetailViewController: UIViewController {
     
-    var resource: Resource!
+    
+    // Useful for for updating title names
+    var resource: Resource! {
+    didSet {
+        navigationItem.title = resource.name
+        }
+    }
     
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var descr: UILabel!
